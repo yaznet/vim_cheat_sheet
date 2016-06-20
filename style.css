@@ -3,3 +3,10 @@ body {
 	font-family: Georgia,Times,serif;
 	font-size: 18px;
 }
+
+img {
+	display:block;
+	width:auto;
+	margin-left:auto;
+	margin-right:auto;
+}
