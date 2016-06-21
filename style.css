@@ -14,3 +14,9 @@ img {
 h1 {
 	text-align: center;
 }
+
+.base, .edition, .recherche, .fenetrage {
+	display: inline-block;
+	width: 20%;
+    border: 1px solid black;
+}
