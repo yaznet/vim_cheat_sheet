@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+	<!-- En-tête de la page -->
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Cheat Sheet Vim</title>
 </head>
+
+<!-- Corps de la page -->
 <body>
 	<header>
 		<h1>Cheat Sheet Vim</h1>
 		<img src="img/vim-logo.png" alt="Logo de Vim" />
+		<a href="#base">Commandes de base</a> <a href="#edition">Commandes d'édition</a> <a href="#recherche">Recherche / remplacement</a> <a href="#fenetrage">Fenêtrage</a>
 	</header>
 <p>Vim c’est comme Vi mais en version améliorée.</p>
 <p>Vim fournit un programme d’apprentissage pour vous familiariser avec les commandes les plus courantes.<br />
@@ -24,7 +28,7 @@ vimtutor</p>
 	Pour activer ce mode, vous devez être en mode interactif et appuyer sur la touche deux points « : ».</li>
 </ul>
 <div>
-	<h2>Commandes de base :</h2>
+	<h2 id="base">Commandes de base :</h2>
 		<ul>
 			<li>h - déplacer le curseur vers la gauche</li>
 			<li>j - déplacer le curseur vers le bas</li>
@@ -41,7 +45,7 @@ vimtutor</p>
 </div>
 
 <div>
-	<h2>Commandes d'édition :</h2>
+	<h2  id="edition">Commandes d'édition :</h2>
 		<ul>
 			<li>u - Annuler la dernière opération</li>
 			<li>&lt;control&gt;-r - Rétablir la dernière opération annulée</li>
@@ -55,7 +59,7 @@ vimtutor</p>
 </div>
 
 <div>
-	<h2>Recherche / remplacement :</h2>
+	<h2 id="recherche">Recherche / remplacement :</h2>
 		<ul>
 			<li>/ - Rechercher du texte</li>
 			<li>n - Rechercher l'occurence suivante</li>
@@ -69,7 +73,7 @@ vimtutor</p>
 	</div>
 
 <div>
-	<h2>Fenêtrage :</h2>
+	<h2 id="fenetrage">Fenêtrage :</h2>
 		<ul>
 			<li>&lt;control-w&gt;-s	- Diviser horizontalement</li>
 			<li>&lt;control-w&gt;-v	- Diviser verticalement</li>
