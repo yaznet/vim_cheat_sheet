@@ -7,7 +7,6 @@ body /* Fond, taille et police sur le body */
 
 img /* affichage image */
 {
-
 	display:block;
 	width:auto;
 	margin-left:auto;
@@ -23,7 +22,6 @@ h1 /* titre centré */
 {
 	display: inline;
 	width: 24%;
-	background-color: #C03240;
 	height: 100%;
 	text-align: left;
 }
