@@ -18,7 +18,7 @@ h1 {
 .block {
 	display: inline;
 	width: 24%;
-    background-color: #C03240;
+	background-color: #C03240;
 	height: 100%;
 	text-align: center;
 }
@@ -29,9 +29,9 @@ h1 {
 }
 
 a, a:visited {
-    color: #000;
-    font-size: 15px;
-    text-decoration: none;
+	color: #000;
+	font-size: 15px;
+	text-decoration: none;
 }
 a:hover {text-decoration: underline;}
 
@@ -40,10 +40,10 @@ footer {
 }
 
 .navlist { 
-    display: inline;
-    list-style-type: none;
-    text-align: center;
-    padding-right: 20px;
-    font-size: 30px;
-    size: 30px;
+	display: inline;
+	list-style-type: none;
+	text-align: center;
+	padding-right: 20px;
+	font-size: 30px;
+	size: 30px;
 }

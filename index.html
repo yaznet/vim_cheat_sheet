@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<!-- En-tête de la page -->
+	<!-- En-tête de page -->
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<title>Cheat Sheet Vim</title>
@@ -12,86 +12,86 @@
 		<h1>Cheat Sheet Vim</h1>
 		<img src="img/vim-logo.png" alt="Logo de Vim" />
 		<ul class="navlist">
-	      <li><a href="#base">Commandes de base</a></li>
-	      <li><a href="#edition">Commandes d'édition</a></li>
-	      <li><a href="#recherche">Recherche/remplacement</a></li>
-	      <li><a href="#fenetrage">Fenêtrage</a></li>
+			<li><a href="#base">Commandes de base</a></li>
+			<li><a href="#edition">Commandes d'édition</a></li>
+			<li><a href="#recherche">Recherche/remplacement</a></li>
+			<li><a href="#fenetrage">Fenêtrage</a></li>
 		</ul>
 	</header>
-<p>Vim c’est comme Vi mais en version améliorée.</p>
-<p>Vim fournit un programme d’apprentissage pour vous familiariser avec les commandes les plus courantes.<br />
-Pour le lancer il vous suffit d'aller dans un terminal et de taper :
-vimtutor</p>
-<p>Vim a trois modes de fonctionnement :</p>
-<ul>
-	<li><strong>Mode interactif : </strong>c'est le mode par défaut par lequel vous commencez. En lançant Vim, vous êtes donc en mode interactif.<br />
-	Dans ce mode, vous ne pouvez pas écrire de texte.)</li>
-	<br /><li><strong>Mode insertion : </strong>ce mode vous permez de tapez du texte<br />
-	Pour entrer dans ce mode, appuyer sur la touche i (insertion). (pour en sortir, il faut appuyer sur la touche Echap.)</li>
-	<br /><li><strong>Mode commande : </strong>ce mode permet de lancer des commandes telles que « quitter », « enregistrer ». Vous pouvez aussi l'utiliser pour activer des options de Vim (comme la coloration syntaxique, l'affichage du numéro des lignes...).<br />
-	Pour activer ce mode, vous devez être en mode interactif et appuyer sur la touche deux points « : ».</li>
-</ul>
-<div class="block">
-	<h2 id="base">Commandes de base :</h2>
+	<p>Vim c’est comme Vi mais en version améliorée.</p>
+	<p>Vim fournit un programme d’apprentissage pour vous familiariser avec les commandes les plus courantes.<br />
+		Pour le lancer il vous suffit d'aller dans un terminal et de taper :
+		vimtutor</p>
+		<p>Vim a trois modes de fonctionnement :</p>
 		<ul>
-			<li>h - déplacer le curseur vers la gauche</li>
-			<li>j - déplacer le curseur vers le bas</li>
-			<li>k - déplacer le curseur vers le haut</li>
-			<li>l - déplacer le curseur vers la droite</li>
-			<li>i - Passer dans le mode insertion</li>
-			<li>A - Ajouter en fin de ligne</li>
-			<li>:q - Quitter</li>
-			<li>:q!	- Quitter sans enregistrer</li>
-			<li>:w - Enregistrer le fichier</li>
-			<li>:wq	- Enregistrer et quitter</li>
-			<li>:x - Enregistrer (en cas de modification) et quitter</li>
-		</ul>
-</div>
+			<li><strong>Mode interactif : </strong>c'est le mode par défaut par lequel vous commencez. En lançant Vim, vous êtes donc en mode interactif.<br />
+				Dans ce mode, vous ne pouvez pas écrire de texte.)</li>
+				<br /><li><strong>Mode insertion : </strong>ce mode vous permez de tapez du texte<br />
+				Pour entrer dans ce mode, appuyer sur la touche i (insertion). (pour en sortir, il faut appuyer sur la touche Echap.)</li>
+				<br /><li><strong>Mode commande : </strong>ce mode permet de lancer des commandes telles que « quitter », « enregistrer ». Vous pouvez aussi l'utiliser pour activer des options de Vim (comme la coloration syntaxique, l'affichage du numéro des lignes...).<br />
+				Pour activer ce mode, vous devez être en mode interactif et appuyer sur la touche deux points « : ».</li>
+			</ul>
+			<div class="block">
+				<h2 id="base">Commandes de base :</h2>
+				<ul>
+					<li>h - déplacer le curseur vers la gauche</li>
+					<li>j - déplacer le curseur vers le bas</li>
+					<li>k - déplacer le curseur vers le haut</li>
+					<li>l - déplacer le curseur vers la droite</li>
+					<li>i - Passer dans le mode insertion</li>
+					<li>A - Ajouter en fin de ligne</li>
+					<li>:q - Quitter</li>
+					<li>:q!	- Quitter sans enregistrer</li>
+					<li>:w - Enregistrer le fichier</li>
+					<li>:wq	- Enregistrer et quitter</li>
+					<li>:x - Enregistrer (en cas de modification) et quitter</li>
+				</ul>
+			</div>
 
-<div class="block">
-	<h2  id="edition">Commandes d'édition :</h2>
-		<ul>
-			<li>u - Annuler la dernière opération</li>
-			<li>&lt;control&gt;-r - Rétablir la dernière opération annulée</li>
-			<li>. - Répéter la dernière opération d'édition</li>
-			<li>yy - Copier la ligne (4yy = 4 lignes)</li>
-			<li>p - Coller après (P = insérer avant)</li>
-			<li>x - Effacer le caractère</li>
-			<li>dw - Effacer le texte jusqu'à la fin du mot</li>
-			<li>diw	- Effacer le mot sous le curseur</li>
-		</ul>
-</div>
+			<div class="block">
+				<h2  id="edition">Commandes d'édition :</h2>
+				<ul>
+					<li>u - Annuler la dernière opération</li>
+					<li>&lt;control&gt;-r - Rétablir la dernière opération annulée</li>
+					<li>. - Répéter la dernière opération d'édition</li>
+					<li>yy - Copier la ligne (4yy = 4 lignes)</li>
+					<li>p - Coller après (P = insérer avant)</li>
+					<li>x - Effacer le caractère</li>
+					<li>dw - Effacer le texte jusqu'à la fin du mot</li>
+					<li>diw	- Effacer le mot sous le curseur</li>
+				</ul>
+			</div>
 
-<div class="block">
-	<h2 id="recherche">Recherche/remplacement :</h2>
-		<ul>
-			<li>/ - Rechercher du texte</li>
-			<li>n - Rechercher l'occurence suivante</li>
-			<li>N - Rechercher l'occurence précédente</li>
-			<li>cw - Remplacer le texte jusqu'à la fin du mot</li>
-			<li>ciw	- Remplacer le mot</li>
-			<li>C - Remplacer jusqu'en fin de ligne</li>
-			<li>. - Répéter la dernière opération d'édition</li>
-			<li>:%s/A/B/g - Remplacer tous (g) les A par des B</li>
-		</ul>
-	</div>
+			<div class="block">
+				<h2 id="recherche">Recherche/remplacement :</h2>
+				<ul>
+					<li>/ - Rechercher du texte</li>
+					<li>n - Rechercher l'occurence suivante</li>
+					<li>N - Rechercher l'occurence précédente</li>
+					<li>cw - Remplacer le texte jusqu'à la fin du mot</li>
+					<li>ciw	- Remplacer le mot</li>
+					<li>C - Remplacer jusqu'en fin de ligne</li>
+					<li>. - Répéter la dernière opération d'édition</li>
+					<li>:%s/A/B/g - Remplacer tous (g) les A par des B</li>
+				</ul>
+			</div>
 
-<div class="block">
-	<h2 id="fenetrage">Fenêtrage :</h2>
-		<ul>
-			<li>&lt;control-w&gt;-s	- Diviser horizontalement</li>
-			<li>&lt;control-w&gt;-v	- Diviser verticalement</li>
-			<li>&lt;control-w&gt;-w	- Passer à la fenêtre suivante</li>
-			<li>&lt;control-w&gt;-n	- Ouvrir un fichier vierge dans une nouvelle fenêtre</li>
-			<li>&lt;control-w&gt;-</li>
-			<li>: tabnew nom_fichier - Ouvrir le fichier nom_fichier dans un onglet</li>
-			<li>&lt;control-w&gt;--q - Fermer la fenêtre</li>
-		</ul>
-	</div>
-<!-- Pied de page -->
-<footer>
-	<p>Copyright Yazweb - Tous droits réservés - <a href="mailto:youcef.ayad.zeddam@gmail.com">Envoyez-moi un e-mail !</a></p>
-</footer>
+			<div class="block">
+				<h2 id="fenetrage">Fenêtrage :</h2>
+				<ul>
+					<li>&lt;control-w&gt;-s	- Diviser horizontalement</li>
+					<li>&lt;control-w&gt;-v	- Diviser verticalement</li>
+					<li>&lt;control-w&gt;-w	- Passer à la fenêtre suivante</li>
+					<li>&lt;control-w&gt;-n	- Ouvrir un fichier vierge dans une nouvelle fenêtre</li>
+					<li>&lt;control-w&gt;-</li>
+					<li>: tabnew nom_fichier - Ouvrir le fichier nom_fichier dans un onglet</li>
+					<li>&lt;control-w&gt;--q - Fermer la fenêtre</li>
+				</ul>
+			</div>
+			<!-- Pied de page -->
+			<footer>
+				<p>Copyright Yazweb - Tous droits réservés - <a href="mailto:youcef.ayad.zeddam@gmail.com">Envoyez-moi un e-mail !</a></p>
+			</footer>
 
-</body>
-</html>
+		</body>
+		</html>
