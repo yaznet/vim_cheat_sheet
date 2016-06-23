@@ -1,45 +1,52 @@
-body {
+body /* Fond, taille et police sur le body */
+{
 	background-color:#F0F0D8;
 	font-family: Georgia,Times,serif;
 	font-size: 15px;
 }
 
-img {
+img /* affichage image */
+{
+
 	display:block;
 	width:auto;
 	margin-left:auto;
 	margin-right:auto;
 }
 
-h1 {
+h1 /* titre centré */
+{
 	text-align: center;
 }
 
-.block {
+.block /* Affichage div's taille, couleur de fond, centré */
+{
 	display: inline;
 	width: 24%;
 	background-color: #C03240;
 	height: 100%;
-	text-align: center;
+	text-align: left;
 }
 
-.nav {
-	text-align: center;
-	width: 50%;
-}
-
-a, a:visited {
+a, a:visited /* couleur, taille liens visité */
+{
 	color: #000;
 	font-size: 15px;
 	text-decoration: none;
 }
-a:hover {text-decoration: underline;}
 
-footer {
+a:hover /* decoration liens survolé */
+{
+	text-decoration: underline;
+}
+
+footer /* footer centré */
+{
 	text-align: center;
 }
 
-.navlist { 
+.navlist /* Affichage navigation taille, centré ect */
+{ 
 	display: inline;
 	list-style-type: none;
 	text-align: center;
